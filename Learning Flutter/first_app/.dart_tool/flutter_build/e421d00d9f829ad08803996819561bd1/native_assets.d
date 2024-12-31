@@ -1,0 +1,1 @@
+ /Applications/Development/Flutter-Development/Learning\ Flutter/first_app/.dart_tool/flutter_build/e421d00d9f829ad08803996819561bd1/native_assets.yaml: 
