@@ -1,30 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:first_app/gradient_container.dart';
 
 void main() {
   //define the main function
   runApp(
-    MaterialApp(
+    const MaterialApp(
       home: Scaffold(
-        body: Container(
-          decoration: const BoxDecoration(
-            gradient: LinearGradient(
-              colors: [Colors.tealAccent, Colors.purple],
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              )
-          ),
-          child: const Center(
-            child: Text('hello',
-            style:TextStyle(
-              fontSize: 40,
-              color: Colors.white,
-              fontWeight: FontWeight.bold,
-            ),
-            ),
-            
-          ),
-        ),
+        body: GradientContainer()
       ),
     ),
   ); //function to run the app and show the UI on screen
 }
+
+
